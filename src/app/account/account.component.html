@@ -1,0 +1,14 @@
+<div class="row card">
+    <div class="col-xs-12 col-md-8 col-md-offset-2 card-body">
+      <h5>{{ account.name }}</h5>
+      <hr>
+      <p>This account is {{ account.status }}</p>
+      <button class="btn btn-success" (click)="onSetTo('active')">Set To 'Active'</button>
+      <button class="btn btn-danger" (click)="onSetTo('inactive')">Set To 'Inactive'</button>
+      <button class="btn btn-warning" (click)="onSetTo('unknown')">Set To 'Unknow'</button>
+    </div>
+  </div>
+
+
+  
+  
